@@ -223,20 +223,20 @@ export const MODEL_TYPE_TO_HF_TASKS: Record<
 
 export const PRIORITY_TRAINING_MODELS: readonly string[] = [
   "unsloth/gemma-4-E2B-it",
-  "unsloth/gemma-4-E4B-it",
-  "unsloth/gemma-4-31B-it",
-  "unsloth/gemma-4-26B-A4B-it",
-  "unsloth/Qwen3.5-2B",
-  "unsloth/Qwen3.5-9B",
-  "unsloth/gpt-oss-20b",
-  "unsloth/NVIDIA-Nemotron-3-Nano-4B",
   "unsloth/Qwen3-0.6B",
+  "unsloth/Qwen3.5-2B",
+  "unsloth/NVIDIA-Nemotron-3-Nano-4B",
+  "unsloth/Llama-3.2-3B-Instruct",
   "unsloth/gemma-3-4b-it",
   "unsloth/embeddinggemma-300m",
+  "unsloth/gemma-4-E4B-it",
+  "unsloth/Qwen3.5-9B",
+  "unsloth/gpt-oss-20b",
+  "unsloth/gemma-4-31B-it",
+  "unsloth/gemma-4-26B-A4B-it",
   "convaiinnovations/laya",
   "unsloth/orpheus-3b-0.1-ft",
   "unsloth/Llama-3.1-8B-Instruct",
-  "unsloth/Llama-3.2-3B-Instruct",
 ];
 
 const LAYA_TRAINING_MODEL = "convaiinnovations/laya";

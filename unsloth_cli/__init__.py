@@ -6,7 +6,7 @@ import sys as _sys
 
 # Entry-point-only behaviour (stream guard, -np<N> rewrite): must not reach a host that imports us.
 _entry_base = _os.path.basename(_sys.argv[0]).lower() if _sys.argv else ""
-_is_entry_point = _entry_base in {"unsloth", "unsloth.exe"}
+_is_entry_point = _entry_base in {"unsloth", "unsloth.exe", "webslm_trainer", "webslm_trainer.exe"}
 _windows_studio_mutation_entry = (
     _sys.platform == "win32"
     and (_is_entry_point or _entry_base == "-m")

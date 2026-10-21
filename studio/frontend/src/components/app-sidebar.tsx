@@ -5892,12 +5892,12 @@ export function AppSidebar() {
                   {/* Logo lockup follows the UI font size at half rate:
                       base + (root scale - 1) * 8px. Exact base sizes at 16px. */}
                   <img
-                    src="/circle-logo-small.png"
-                    alt="Unsloth"
+                    src="/webslm-icon.svg"
+                    alt="WebSLM Trainer"
                     className="relative top-px -left-px h-[calc(22px+0.5rem*var(--ui-font-scale,1))] w-[calc(22px+0.5rem*var(--ui-font-scale,1))] shrink-0 rounded-full object-cover"
                   />
                   <span className="relative -top-px truncate font-heading text-[calc(13px+0.5rem*var(--ui-font-scale,1))] font-semibold tracking-[0em] leading-tight text-black dark:text-foreground dark:tracking-[0.02em]">
-                    unsloth
+                    WebSLM Trainer
                   </span>
                   <span className="nav-badge ml-0.5 inline-flex shrink-0 items-center justify-center rounded-full border border-nav-beta-border px-[calc(5px*var(--ui-space-scale,1))] pt-[calc(3px*var(--ui-space-scale,1))] pb-[calc(2px*var(--ui-space-scale,1))] text-[calc(0.5rem*var(--ui-font-scale,1))] font-medium leading-none tracking-[0.04em] text-nav-fg-muted antialiased subpixel-antialiased shadow-[0_1px_2px_rgba(0,0,0,0.06)] dark:shadow-[0_1px_2px_var(--background)]">
                     {t("shell.beta")}
@@ -6666,7 +6666,7 @@ export function AppSidebar() {
                       pr on the button reserves room for the settings cog */}
                   <div className="flex min-w-0 flex-1 flex-col gap-px leading-tight group-data-[collapsible=icon]:hidden">
                     <span className="truncate font-heading text-ui-13p5 tracking-[0.025em] dark:tracking-[0.04em] font-semibold text-nav-fg">{displayTitle}</span>
-                    <span className="truncate text-ui-11p5 tracking-nav text-muted-foreground">Unsloth</span>
+                    <span className="truncate text-ui-11p5 tracking-nav text-muted-foreground">WebSLM Trainer</span>
                   </div>
                 </SidebarMenuButton>
               )}

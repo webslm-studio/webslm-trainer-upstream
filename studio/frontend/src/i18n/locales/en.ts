@@ -736,7 +736,7 @@ export const en = {
       troubleshooting: "Troubleshooting",
       systemStatus: "System Status",
       sendFeedback: "Send Feedback",
-      about: "About Unsloth",
+      about: "About WebSLM Trainer",
     },
     find: {
       label: "Find in page",
@@ -755,8 +755,8 @@ export const en = {
       announce: "Zoom {percent}%",
     },
     beta: "BETA",
-    brand: "unsloth",
-    product: "Unsloth",
+    brand: "WebSLM Trainer",
+    product: "WebSLM Trainer",
     accountMenu: "{name} account menu",
     updateAvailable: "Update available",
     resize: {
@@ -765,7 +765,7 @@ export const en = {
       drag: "Drag to resize",
     },
     aria: {
-      home: "Unsloth home",
+      home: "WebSLM Trainer home",
       closeSidebar: "Close sidebar",
       openSidebar: "Open sidebar",
       resizeSidebar: "Resize or collapse sidebar",
@@ -3256,7 +3256,7 @@ export const en = {
     about: {
       title: "About",
       description: "Docs, release notes, feedback, and build info.",
-      studioVersion: "Unsloth Version",
+      studioVersion: "WebSLM Trainer Version",
       packageVersion: "Package Version",
       desktopAppVersion: "Desktop App Version",
       desktopAppVersionUnavailable: "Unavailable",
@@ -3277,7 +3277,7 @@ export const en = {
       reportIssue: "Report an issue",
       license: {
         sectionTitle: "License",
-        studioLabel: "Unsloth",
+        studioLabel: "WebSLM Trainer (based on Unsloth)",
         studioLicense: "AGPL-3.0",
         studioDescription: "Open source under the GNU AGPL v3.0.",
         libraryLabel: "Unsloth Core",
